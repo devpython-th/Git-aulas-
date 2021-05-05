@@ -24,3 +24,13 @@ Na sequencia faz um git log para ver o resultado da operação.
 
 git log oneline (comando que mostra o primeiro commit)
 
+=>Fazendo add junto com o commit usando o comando, git commit -am "nome do arquivo e o que foi modificado ou criado
+
+Criando nova branch com o codigo de um commit, git checkout + o cod do commit identificado no git log --oneline, esse comando esconde o commit, após criar a branch digite, git branch.. e nisso estara na branch atua criada
+
+para retornar a branch anterior que era a master basta digitar: git checkout master
+
+
+#Desfazer alterações em um arquivo..git diff(mostra as modificações, porem após fazer o git add  o git diff nao tem mais as informações) para desfazer essa alteração digite: git restore a.txt(nome do arquivo)...nesse comando o arquivo volta ao estado em que estava...
+
+Removendo um conteudo do container após ser adicionado..git reset HEAD 
