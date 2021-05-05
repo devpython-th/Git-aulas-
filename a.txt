@@ -1,3 +1,4 @@
 Testes no git 
 Linha adicionada para fazer uma adição junto com o commit
 Esta linha foi mudada na outra branch
+Esta linha foi mudada no ramo teste 
