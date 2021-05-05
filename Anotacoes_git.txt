@@ -33,4 +33,20 @@ para retornar a branch anterior que era a master basta digitar: git checkout mas
 
 #Desfazer alterações em um arquivo..git diff(mostra as modificações, porem após fazer o git add  o git diff nao tem mais as informações) para desfazer essa alteração digite: git restore a.txt(nome do arquivo)...nesse comando o arquivo volta ao estado em que estava...
 
-Removendo um conteudo do container após ser adicionado..git reset HEAD 
+Removendo um conteudo do container após ser adicionado..git reset HEAD
+
+#Criando Ramificações do projeto: criando um novo ramo ou uma nova branch.. git checkout -b teste
+
+fiz modificações no arquivo a.txt e b.txt e criei um novo arquivo d.txt com o comando touch d.txt, fazer o git add d.txt e fazer o commit.. git commit -m "criado d.txt"
+
+obs: esses dados foram feitos na branch teste, agora mude para a branch master;; git checkout master
+
+Agora no ramo master fazer mudança no arquivo a.txt para criar conflito com o mesmo arquivo que esta na branch teste
+
+obs: com 2 branchs sendo usadas podemos fazer o comando para ver o grafico das 2 branch no caso master e teste..git log --oneline --graph --all
+
+Para fazer a fusão das branchs usa o comando..git merge teste...nesse comando aparece o conflito no arquivo a.txt...
+
+Após as correções dos conflitos no visual code, fazer o git add dos arquivos e em seguida o git commit -m
+
+ 
