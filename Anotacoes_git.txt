@@ -1,0 +1,26 @@
+Comandos git
+
+No diretorio do projeto crie seus arquivos
+=>Para iniciar clique no terminal git init (nele é criado o .git que é um arquivo em oculto)
+
+=>Configurando seus dados do github no terminal
+git config --global user.name "nome usuario githib"
+git config --global user.email "email@...do git hub"
+
+Os comandos git basicos são: git status(verifica o que tem no contanier) - comando git touch cria um arquivo no diretorio
+
+Para add os arquivos criados pelo touch clique: git add *(add todos os arquivos) ou git add + o nome do arquivo sem as aspas
+
+Agora com os arquivos add é hora de fazer o commit:
+git commit -m "arquivos txt"
+
+Após o commit use o git log para ver o que foi criado
+
+Fiz uma modificação no arquivo criado, agora faço uma nova adição com git add * ou nome do arquivo, depois de adicionado faça um novo commit, git commit -m "arquivo modificado"
+Na sequencia faz um git log para ver o resultado da operação.
+
+
+#Controle de Versões: Rastrear mudanças, Desfazer alterações, recuperar versões anteriores do projeto
+
+git log oneline (comando que mostra o primeiro commit)
+
